@@ -32,7 +32,8 @@ Manually, these steps needed:
 2. `source .venv/bin/activate`
 3. `uv sync`
 4. Download dataset: `cd ./data` and run `./download.sh`
-5. `python src/train.py`
+5. `cd ../src`
+6. `python train.py`
 
 ## Repo design and help for the review:
 There are two directories in this repository:
