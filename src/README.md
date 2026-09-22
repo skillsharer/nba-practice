@@ -18,9 +18,10 @@ During the EDA phase, I discovered the features of the dataset; how to scale the
 7. Evaluated the results.
 
 ![Result](../data/notebooks/leaky-vs-no-leaky.png)
-This script covers my attempts: `<repo-root>/data/notebooks/experiments.ipynb`
 
 This result shows us that the model performs better when current campaign features included, because they contain information that is unavailable at prediction time. Therefore, I dropped them in the final trainings.
+
+This script covers my attempts: `<repo-root>/data/notebooks/experiments.ipynb`
 
 ## Train pipeline
 `train.py` is the full standardized training pipeline which is the result of my two previously mentioned notebooks. The goal was to make the training process modular and reproducible.
